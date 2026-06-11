@@ -24,7 +24,7 @@ public class Student {
     @NotBlank(message = "Email is required")
     private String email;
 
-    @NotBlank(message = "Course is required")
+    @NotNull(message = "Course is required")
     @ManyToOne
     @JoinColumn(name = "course_id")
     private Course course;
@@ -78,7 +78,7 @@ public class Student {
         return Surname;
     }
 
-    public void setSurname(String id) {
+    public void setSurname(String Surname) {
         this.Surname = Surname;
     }
 
@@ -109,8 +109,7 @@ public class Student {
     public LocalDate getDate() {
         return dateOfEnrollment;
     }
-    public void setDate(LocalDate dateOfEnrollment) {
-    //   this.dateOfEnrollment = dateOfEnrollment;
+    public void setDate(LocalDate dateOfEnrollment) {this.dateOfEnrollment = dateOfEnrollment;
 
     }
     public Boolean getStatus() {
