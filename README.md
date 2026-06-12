@@ -6,7 +6,6 @@ Student Management System API is a RESTful backend application built using Sprin
 
 The project demonstrates backend software engineering concepts including layered architecture, dependency injection, data validation, exception handling, object-relational mapping, and database persistence.
 
----
 
 ## Features
 
@@ -21,7 +20,7 @@ The project demonstrates backend software engineering concepts including layered
 * Track academic performance through average marks
 * Maintain student status information
 
----
+
 
 ## Technologies Used
 
@@ -49,7 +48,7 @@ The project demonstrates backend software engineering concepts including layered
 * Git
 * GitHub
 
----
+
 
 ## Architecture
 
@@ -95,7 +94,7 @@ Maps Java objects to database tables.
 * Academic Status
 * Average Mark
 
----
+
 
 ## API Endpoints
 
