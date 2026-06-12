@@ -54,7 +54,7 @@ The project demonstrates backend software engineering concepts including layered
 
 The application follows a layered architecture:
 
-```text
+
 Controller Layer
        ↓
 Service Layer
@@ -62,7 +62,7 @@ Service Layer
 Repository Layer
        ↓
 PostgreSQL Database
-```
+
 
 ### Controller Layer
 
@@ -80,7 +80,6 @@ Provides database access through Spring Data JPA.
 
 Maps Java objects to database tables.
 
----
 
 ## Student Information Managed
 
@@ -147,7 +146,6 @@ Maps Java objects to database tables.
 * Cloud Deployment
 * Student Performance Analytics Dashboard
 
----
 
 ## Author
 
